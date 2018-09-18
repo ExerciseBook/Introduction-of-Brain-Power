@@ -1,3 +1,4 @@
+import platform
 import hmac
 import hashlib
 import base64
@@ -48,11 +49,14 @@ while s!="0" :
         qr.make(fit=True)
         img=qr.make_image()
         img.save("export.png")
-        print("嘿！朋友！我搞定了！按下回车之后就可以自动打开这个文件啦！")
-        input()
-        os.system("explorer export.png")
+        if platform.system() == "Windows":
+            print("嘿！朋友！我搞定了！按下回车之后就可以自动打开这个文件啦！")
+            input()
+            os.system("explorer export.png")
+        else:
+            print("啊！非常抱歉，我亲爱的朋友。虽然我不能帮你自动打开这个文件，但是你依然可以手动找到这个文件来自己打开。")
     
-    print("\n\n嘿，我的朋友")
+    print("\n嘿，我的朋友")
     print("还需要让我做其他事情吗？")
     print("   0. 退出本程序")
     print("   1. 计算SHA256")

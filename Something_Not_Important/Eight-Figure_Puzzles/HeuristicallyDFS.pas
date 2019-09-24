@@ -219,6 +219,11 @@ Begin
 	end;
 	
 	for i:=0 to l-1 do begin
+		//if dfs(depth+1,next[i].v)=1 then exit(1);
+		writeln(next[i].v,' ',next[i].w);
+	end;
+	
+	for i:=0 to l-1 do begin
 		if dfs(depth+1,next[i].v)=1 then exit(1);
 	end;
 	

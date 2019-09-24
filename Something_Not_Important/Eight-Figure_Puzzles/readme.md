@@ -4,3 +4,9 @@
 
 ## BFS
 <img src="image/bfs.svg" width="640"/>  
+
+
+## HeuristicallyDFS
+<img src="image/HeuristicallyDFS.svg" width="640"/>  
+
+

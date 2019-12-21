@@ -1,4 +1,4 @@
-# Introduction of [*Brain Power*](https://music.163.com/song?id=402073800&userid=252892827)
+# Introduction of [*Brain Power*](https://music.163.com/song?id=402073800)
 - Are You Rea(dy*60)
 - Adrenaline is pumping
 - Adrenaline is pumping
